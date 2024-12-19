@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(236, 246, 254, 1);
+    background-color: #FFFFFF;
     width: 100vw;
     height: auto;
     margin: 0;
@@ -78,8 +78,8 @@ body{
     
   }
   .container-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    display: flex;
+    
     gap: 50px;
     overflow: hidden;
     padding: 0;
@@ -121,8 +121,79 @@ body{
   .container-3{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
+    justify-content:space-around;
+    /* align-items: center; */
+    margin-top: 80px;
     
 
   }
+  #alphabet{
+  margin-right: 50px;
+  }
+  .icons{
+  display: flex;
+  margin-top: 40px;
+  margin-right: 60px;
+  }
+  .icons img{
+  width: 40px;
+  height: 40px;
+  }
+  .reachout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  #follow p{
+  font-family:"Lexend Exa", sans-serif ;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  }
+  #email1{
+  width: 300px;
+  height: 28px;
+  }
+  .my-button {
+  height: 30px;
+  background-color: #AD7C00;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  }
+  .copy{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 100px;
+  font-family:  "Lexend Exa", sans-serif;
+  font-weight: 300;
+  margin-left: 80px;
+  margin-right: 80px;
+  }
+  #contact1{
+  border: 2px solid #00000029;
+  border-radius: 8px;
+  height: 48px;
+  width: 145px;
+  background-color: white;
+  font-family: "Lexend Exa", sans-serif;
+  cursor: pointer;
+  }
+  #contact2{
+  font-family:  "Lexend Exa", sans-serif;
+  font-weight: 300;
+  }
+  #contact{
+    font-family: "Lexend Exa", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+  }
+  #alphabet{
+    font-family:  "Newsreader", serif;
+  }
+  
+
